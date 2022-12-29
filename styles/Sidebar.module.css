@@ -1,0 +1,79 @@
+.sidebar{
+    width: 30%;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blanchedalmond;
+    padding: 10px;
+    box-sizing: border-box;
+    border-bottom: 1px solid whitesmoke;
+}
+
+.display_name{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5px;
+    align-items: center;
+    
+}
+
+.search{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.searchbar{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: blue;
+}
+
+.search input{
+    flex:1;
+}
+
+
+.chatList{
+    width: 100%;
+    padding: 10px;
+    
+    box-sizing: border-box;
+}
+
+
+.singlechat{
+ width: 100%;
+ display: flex;
+ align-items: center;
+    padding-bottom: 10px;
+ 
+}
+
+.message_wrapper{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    
+    
+    border-bottom: 1px solid black;
+}
+.message_wrapper h3, .message_wrapper h4{
+    padding: 5px;
+    margin: 0px;
+}

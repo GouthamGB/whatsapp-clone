@@ -1,0 +1,14 @@
+.chat{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    background-color: blueviolet;
+}
+
+.chatnav{
+    border-bottom: 1px solid whitesmoke;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 20px 0px 20px;
+}

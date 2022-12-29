@@ -1,0 +1,103 @@
+.reg{
+    margin-top: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    
+}
+
+.reg::before{
+    content: "";
+    background-color: rgb(34, 81, 211) ;
+    width: 100%;
+    height: 30%;
+    position: absolute;
+    z-index: -1;
+}
+
+.bar{
+    width: 100%;
+    z-index: 2;
+    margin-top: 0;
+    
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+} 
+
+.bar_inner{
+    width: 60%;
+    
+}
+
+
+
+.reg_form_container{
+    z-index: 2;
+    width: 40%;
+    background-color: white;
+    padding: 40px 40px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.reg_form_container form{
+   display: flex;
+   flex-direction: column;
+   
+   width: 80%;
+   gap:30px;
+
+}
+
+.reg_form_container form input{
+    
+    padding: 10px;
+    
+    border: none;
+    border-radius: none;
+    border-bottom: solid 1px rgb(197, 197, 197);
+}
+
+.reg_form_container form input:focus{
+    
+    outline: none;
+    box-shadow: none;
+}
+
+.reg_form_container form button{
+    padding: 10px 0px;
+    margin-top: 10px;
+    width: 30%;
+    
+}
+
+.ruler{
+    width: 80%;
+    height: 2px;
+    background-color: rgb(197, 197, 197);
+
+    margin-top: 50px;
+}
+
+.login_redirect{
+    width: 80%;
+   
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+
+    gap: 20px;
+}
+
+.login_redirect button{
+    
+}
